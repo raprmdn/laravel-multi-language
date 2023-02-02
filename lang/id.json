@@ -1,0 +1,38 @@
+{
+    "The :attribute must contain at least one letter.": "The :attribute must contain at least one letter.",
+    "The :attribute must contain at least one number.": "The :attribute must contain at least one number.",
+    "The :attribute must contain at least one symbol.": "The :attribute must contain at least one symbol.",
+    "The :attribute must contain at least one uppercase and one lowercase letter.": "The :attribute must contain at least one uppercase and one lowercase letter.",
+    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": "The given :attribute has appeared in a data leak. Please choose a different :attribute.",
+
+    "Log In": "Masuk",
+    "Log Out": "Keluar",
+    "Register": "Daftar",
+
+    "Dashboard": "Dasbor",
+    "Articles": "Artikel",
+    "About Us": "Tentang Kami",
+    "Contact Us": "Kontak Kami",
+    "Gallery": "Galeri",
+
+    "You are logged in!": "Anda telah masuk!",
+    "Profile Information": "Informasi Profil",
+    "Update your account's profile information and email address.": "Perbarui informasi profil dan alamat email akun Anda.",
+    "Update Password": "Perbarui Kata Sandi",
+    "Ensure your account is using a long, random password to stay secure.": "Pastikan akun Anda menggunakan kata sandi yang panjang dan acak untuk tetap aman.",
+    "Delete Account": "Hapus Akun",
+    "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain." : "Setelah akun Anda dihapus, semua sumber daya dan data akan dihapus secara permanen. Sebelum menghapus akun Anda, silakan unduh data atau informasi yang ingin Anda simpan.",
+    "Are you sure you want to delete your account?": "Are you sure you want to delete your account?",
+    "Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.": "Setelah akun Anda dihapus, semua sumber daya dan data akan dihapus secara permanen. Silakan masukkan kata sandi Anda untuk mengonfirmasi bahwa Anda ingin menghapus akun Anda secara permanen.",
+
+    "Name": "Nama",
+    "Email": "Email",
+    "Password": "Kata Sandi",
+    "Confirm Password": "Konfirmasi Kata Sandi",
+    "Current Password": "Kata Sandi Saat Ini",
+    "New Password": "Kata Sandi Baru",
+
+    "Save": "Simpan",
+    "Saved": "Disimpan",
+    "Cancel": "Batal"
+}

@@ -1,4 +1,5 @@
 import { Link, Head } from '@inertiajs/react';
+import { __ } from "@/Libs/Lang";
 
 export default function Welcome(props) {
     return (
@@ -13,14 +14,14 @@ export default function Welcome(props) {
                     ) : (
                         <>
                             <Link href={route('login')} className="text-sm text-gray-700 dark:text-gray-500 underline">
-                                Log in
+                                {__('Login')}
                             </Link>
 
                             <Link
                                 href={route('register')}
                                 className="ml-4 text-sm text-gray-700 dark:text-gray-500 underline"
                             >
-                                Register
+                                {__('Register')}
                             </Link>
                         </>
                     )}

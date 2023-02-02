@@ -30,6 +30,9 @@ class HandleInertiaRequests extends Middleware
      */
     public function share(Request $request): array
     {
+        // Merge the language files into the shared data
+
+
         return array_merge(parent::share($request), [
             'auth' => [
                 'user' => $request->user(),
@@ -39,6 +42,7 @@ class HandleInertiaRequests extends Middleware
                     'location' => $request->url(),
                 ]);
             },
+            'language' => fn () => translations(base_path('lang/' . app()->getLocale() . '.json')),
         ]);
     }
 }

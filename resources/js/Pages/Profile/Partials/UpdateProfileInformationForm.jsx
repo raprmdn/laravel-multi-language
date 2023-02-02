@@ -4,6 +4,7 @@ import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Link, useForm, usePage } from '@inertiajs/react';
 import { Transition } from '@headlessui/react';
+import { __ } from "@/Libs/Lang";
 
 export default function UpdateProfileInformation({ mustVerifyEmail, status, className }) {
     const user = usePage().props.auth.user;
@@ -22,16 +23,16 @@ export default function UpdateProfileInformation({ mustVerifyEmail, status, clas
     return (
         <section className={className}>
             <header>
-                <h2 className="text-lg font-medium text-gray-900">Profile Information</h2>
+                <h2 className="text-lg font-medium text-gray-900">{__('Profile Information')}</h2>
 
                 <p className="mt-1 text-sm text-gray-600">
-                    Update your account's profile information and email address.
+                    {__('Update your account\'s profile information and email address.')}
                 </p>
             </header>
 
             <form onSubmit={submit} className="mt-6 space-y-6">
                 <div>
-                    <InputLabel for="name" value="Name" />
+                    <InputLabel for="name" value={__('Name')} />
 
                     <TextInput
                         id="name"
@@ -47,7 +48,7 @@ export default function UpdateProfileInformation({ mustVerifyEmail, status, clas
                 </div>
 
                 <div>
-                    <InputLabel for="email" value="Email" />
+                    <InputLabel for="email" value={__('Email')} />
 
                     <TextInput
                         id="email"
@@ -85,7 +86,7 @@ export default function UpdateProfileInformation({ mustVerifyEmail, status, clas
                 )}
 
                 <div className="flex items-center gap-4">
-                    <PrimaryButton processing={processing}>Save</PrimaryButton>
+                    <PrimaryButton processing={processing}>{__('Save')}</PrimaryButton>
 
                     <Transition
                         show={recentlySuccessful}
@@ -93,7 +94,7 @@ export default function UpdateProfileInformation({ mustVerifyEmail, status, clas
                         leaveTo="opacity-0"
                         className="transition ease-in-out"
                     >
-                        <p className="text-sm text-gray-600">Saved.</p>
+                        <p className="text-sm text-gray-600">{__('Saved')}.</p>
                     </Transition>
                 </div>
             </form>

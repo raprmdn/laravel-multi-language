@@ -1,0 +1,38 @@
+{
+    "The :attribute must contain at least one letter.": "The :attribute must contain at least one letter.",
+    "The :attribute must contain at least one number.": "The :attribute must contain at least one number.",
+    "The :attribute must contain at least one symbol.": "The :attribute must contain at least one symbol.",
+    "The :attribute must contain at least one uppercase and one lowercase letter.": "The :attribute must contain at least one uppercase and one lowercase letter.",
+    "The given :attribute has appeared in a data leak. Please choose a different :attribute.": "The given :attribute has appeared in a data leak. Please choose a different :attribute.",
+
+    "Log In": "Log In",
+    "Log Out": "Log Out",
+    "Register": "Register",
+
+    "Dashboard": "Dashboard",
+    "Articles": "Articles",
+    "About Us": "About Us",
+    "Contact Us": "Contact Us",
+    "Gallery": "Gallery",
+
+    "You are logged in!": "You're logged in!",
+    "Profile Information": "Profile Information",
+    "Update your account's profile information and email address.": "Update your account's profile information and email address.",
+    "Update Password": "Update Password",
+    "Ensure your account is using a long, random password to stay secure.": "Ensure your account is using a long, random password to stay secure.",
+    "Delete Account": "Delete Account",
+    "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain." : "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.",
+    "Are you sure you want to delete your account?": "Are you sure you want to delete your account?",
+    "Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.": "Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.",
+
+    "Name": "Name",
+    "Email": "Email",
+    "Password": "Password",
+    "Confirm Password": "Confirm Password",
+    "Current Password": "Current Password",
+    "New Password": "New Password",
+
+    "Save": "Save",
+    "Saved": "Saved",
+    "Cancel": "Cancel"
+}
